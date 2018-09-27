@@ -32,7 +32,7 @@ namespace MyEnglishExam
             listView3.Columns[1].Text = "English Word";
             ListView list = new ListView();
             DateTime time = DateTime.Today;
-            time = time.AddDays(-daycount);
+            time = time.AddDays(-daycount+1);
             connect.Open();
             int number = 0;
             Random rand = new Random();
@@ -95,7 +95,7 @@ namespace MyEnglishExam
             ListView list = new ListView();
             ListViewItem item;
             DateTime time = DateTime.Today;
-            time = time.AddDays(-daycount);
+            time = time.AddDays(-daycount+1);
             connect.Open();
             int number = 0;
             for (int i = 0; i < daycount; i++)
