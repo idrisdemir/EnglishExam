@@ -38,24 +38,26 @@
             // 
             // englishword
             // 
+            this.englishword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.englishword.Location = new System.Drawing.Point(16, 43);
-            this.englishword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.englishword.Margin = new System.Windows.Forms.Padding(4);
             this.englishword.Name = "englishword";
-            this.englishword.Size = new System.Drawing.Size(132, 22);
+            this.englishword.Size = new System.Drawing.Size(132, 30);
             this.englishword.TabIndex = 0;
             // 
             // turkishword
             // 
+            this.turkishword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.turkishword.Location = new System.Drawing.Point(224, 43);
-            this.turkishword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.turkishword.Margin = new System.Windows.Forms.Padding(4);
             this.turkishword.Name = "turkishword";
-            this.turkishword.Size = new System.Drawing.Size(132, 22);
+            this.turkishword.Size = new System.Drawing.Size(132, 30);
             this.turkishword.TabIndex = 1;
             // 
             // execute
             // 
-            this.execute.Location = new System.Drawing.Point(135, 94);
-            this.execute.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.execute.Location = new System.Drawing.Point(123, 94);
+            this.execute.Margin = new System.Windows.Forms.Padding(4);
             this.execute.Name = "execute";
             this.execute.Size = new System.Drawing.Size(110, 38);
             this.execute.TabIndex = 2;
@@ -104,7 +106,7 @@
             this.Controls.Add(this.execute);
             this.Controls.Add(this.turkishword);
             this.Controls.Add(this.englishword);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);

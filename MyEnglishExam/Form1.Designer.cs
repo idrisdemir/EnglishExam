@@ -57,10 +57,10 @@
             // 
             this.getwrong.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.getwrong.Enabled = false;
-            this.getwrong.Location = new System.Drawing.Point(1129, 526);
-            this.getwrong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.getwrong.Location = new System.Drawing.Point(847, 427);
+            this.getwrong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.getwrong.Name = "getwrong";
-            this.getwrong.Size = new System.Drawing.Size(117, 33);
+            this.getwrong.Size = new System.Drawing.Size(88, 27);
             this.getwrong.TabIndex = 3;
             this.getwrong.Text = "GetWrong";
             this.getwrong.UseVisualStyleBackColor = true;
@@ -69,10 +69,10 @@
             // forweek
             // 
             this.forweek.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.forweek.Location = new System.Drawing.Point(936, 526);
-            this.forweek.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.forweek.Location = new System.Drawing.Point(702, 427);
+            this.forweek.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.forweek.Name = "forweek";
-            this.forweek.Size = new System.Drawing.Size(108, 33);
+            this.forweek.Size = new System.Drawing.Size(81, 27);
             this.forweek.TabIndex = 4;
             this.forweek.Text = "ForWeek";
             this.forweek.UseVisualStyleBackColor = true;
@@ -81,10 +81,10 @@
             // formonth
             // 
             this.formonth.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.formonth.Location = new System.Drawing.Point(733, 526);
-            this.formonth.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.formonth.Location = new System.Drawing.Point(550, 427);
+            this.formonth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.formonth.Name = "formonth";
-            this.formonth.Size = new System.Drawing.Size(109, 31);
+            this.formonth.Size = new System.Drawing.Size(82, 25);
             this.formonth.TabIndex = 5;
             this.formonth.Text = "ForMonth";
             this.formonth.UseVisualStyleBackColor = true;
@@ -93,10 +93,10 @@
             // turkish
             // 
             this.turkish.AutoSize = true;
-            this.turkish.Location = new System.Drawing.Point(525, 536);
-            this.turkish.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.turkish.Location = new System.Drawing.Point(394, 436);
+            this.turkish.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.turkish.Name = "turkish";
-            this.turkish.Size = new System.Drawing.Size(76, 21);
+            this.turkish.Size = new System.Drawing.Size(60, 17);
             this.turkish.TabIndex = 6;
             this.turkish.TabStop = true;
             this.turkish.Text = "Turkish";
@@ -105,10 +105,10 @@
             // english
             // 
             this.english.AutoSize = true;
-            this.english.Location = new System.Drawing.Point(397, 536);
-            this.english.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.english.Location = new System.Drawing.Point(298, 436);
+            this.english.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.english.Name = "english";
-            this.english.Size = new System.Drawing.Size(75, 21);
+            this.english.Size = new System.Drawing.Size(59, 17);
             this.english.TabIndex = 7;
             this.english.TabStop = true;
             this.english.Text = "English";
@@ -116,10 +116,10 @@
             // 
             // unsuccessful
             // 
-            this.unsuccessful.Location = new System.Drawing.Point(1341, 526);
-            this.unsuccessful.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.unsuccessful.Location = new System.Drawing.Point(1000, 427);
+            this.unsuccessful.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.unsuccessful.Name = "unsuccessful";
-            this.unsuccessful.Size = new System.Drawing.Size(123, 33);
+            this.unsuccessful.Size = new System.Drawing.Size(92, 27);
             this.unsuccessful.TabIndex = 11;
             this.unsuccessful.Text = "UnSuccessful";
             this.unsuccessful.UseVisualStyleBackColor = true;
@@ -132,12 +132,12 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader10});
+            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView1.FullRowSelect = true;
             this.listView1.LabelEdit = true;
-            this.listView1.Location = new System.Drawing.Point(16, 4);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4);
+            this.listView1.Location = new System.Drawing.Point(12, 3);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(441, 509);
+            this.listView1.Size = new System.Drawing.Size(358, 414);
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -168,12 +168,12 @@
             this.columnHeader5,
             this.columnHeader6,
             this.columnHeader11});
+            this.listView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView2.FullRowSelect = true;
             this.listView2.LabelEdit = true;
-            this.listView2.Location = new System.Drawing.Point(488, 4);
-            this.listView2.Margin = new System.Windows.Forms.Padding(4);
+            this.listView2.Location = new System.Drawing.Point(394, 3);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(441, 509);
+            this.listView2.Size = new System.Drawing.Size(363, 414);
             this.listView2.TabIndex = 13;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -204,12 +204,12 @@
             this.columnHeader8,
             this.columnHeader9,
             this.columnHeader12});
+            this.listView3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView3.FullRowSelect = true;
             this.listView3.LabelEdit = true;
-            this.listView3.Location = new System.Drawing.Point(963, 4);
-            this.listView3.Margin = new System.Windows.Forms.Padding(4);
+            this.listView3.Location = new System.Drawing.Point(777, 3);
             this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(441, 509);
+            this.listView3.Size = new System.Drawing.Size(359, 414);
             this.listView3.TabIndex = 14;
             this.listView3.UseCompatibleStateImageBehavior = false;
             this.listView3.View = System.Windows.Forms.View.Details;
@@ -235,9 +235,10 @@
             // 
             // addword
             // 
-            this.addword.Location = new System.Drawing.Point(26, 534);
+            this.addword.Location = new System.Drawing.Point(20, 434);
+            this.addword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.addword.Name = "addword";
-            this.addword.Size = new System.Drawing.Size(93, 36);
+            this.addword.Size = new System.Drawing.Size(70, 29);
             this.addword.TabIndex = 15;
             this.addword.Text = "AddWord";
             this.addword.UseVisualStyleBackColor = true;
@@ -245,9 +246,10 @@
             // 
             // updateword
             // 
-            this.updateword.Location = new System.Drawing.Point(148, 534);
+            this.updateword.Location = new System.Drawing.Point(111, 434);
+            this.updateword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.updateword.Name = "updateword";
-            this.updateword.Size = new System.Drawing.Size(102, 36);
+            this.updateword.Size = new System.Drawing.Size(76, 29);
             this.updateword.TabIndex = 16;
             this.updateword.Text = "UpdateWord";
             this.updateword.UseVisualStyleBackColor = true;
@@ -255,12 +257,12 @@
             // 
             // Exam
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(1491, 582);
+            this.ClientSize = new System.Drawing.Size(1149, 473);
             this.Controls.Add(this.updateword);
             this.Controls.Add(this.addword);
             this.Controls.Add(this.listView3);
@@ -273,7 +275,7 @@
             this.Controls.Add(this.forweek);
             this.Controls.Add(this.getwrong);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Exam";
