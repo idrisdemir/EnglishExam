@@ -24,11 +24,31 @@ namespace MyEnglishExam
             connect.Open();
             if (execute.Text == "AddWord")
             {
-                SqlCommand command = new SqlCommand("insert into Word(EnglishWord,TurkishWord,WrongCount,Date) Values('" + englishword.Text + "','" + turkishword.Text +
-               "','0','" + DateTime.Now.ToString("ddMMyyyy") + "')", connect);
-                command.ExecuteNonQuery();
+                try
+                {
+                    SqlCommand command = new SqlCommand("insert into Word(EnglishWord,TurkishWord,WrongCount,Date) Values('" + englishword.Text + "','" + turkishword.Text +
+              "','0','" + DateTime.Now.ToString("ddMMyyyy") + "')", connect);
+                    command.ExecuteNonQuery();
+                   
+                }
+                catch (SqlException l)
+                {
+                    SqlCommand command = new SqlCommand("select * from Word where EnglishWord='" + englishword.Text + "'", connect);
+                    SqlDataReader reader = command.ExecuteReader();
+                    reader.Read();
+                    string str = reader[2].ToString();
+                    reader.Close();
+                    if (!str.Contains(turkishword.Text))
+                    { 
+                        
+                        str = String.Concat(str, "," + turkishword.Text);
+                        command = new SqlCommand("Update Word set TurkishWord='" + str + "' where EnglishWord='"+englishword.Text+"'",connect);
+                        command.ExecuteNonQuery();
+                    }
+                }
                 englishword.Text = "";
                 turkishword.Text = "";
+
             }
             else
             {

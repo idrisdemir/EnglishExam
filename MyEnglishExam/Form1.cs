@@ -50,6 +50,7 @@ namespace MyEnglishExam
                     item.SubItems.Add(reader[1].ToString());
                     item.SubItems.Add(reader[3].ToString());
                     item.SubItems.Add(reader[0].ToString());
+                    item.ToolTipText = item.SubItems[1].Text;
                     list.Items.Add(item);
                 }
                 reader.Close();
@@ -322,7 +323,8 @@ namespace MyEnglishExam
 
         private void listView1_MouseClick(object sender, MouseEventArgs e)
         {
-            item = listView1.SelectedItems[0];
+            item = listView1.SelectedItems[0];           
+          
         }
 
         private void listView2_MouseClick(object sender, MouseEventArgs e)
